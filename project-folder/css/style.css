@@ -1,0 +1,41 @@
+/* Basic Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+#post-list {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#post-list div {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+#post-list div:hover {
+  background-color: #f0f0f0;
+}
+
+/* Post Detail */
+#post-detail {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: whi
